@@ -8,6 +8,7 @@ html,body{
     color: white;
     background-color: rgb(49, 49, 49);
     text-align: center;
+    border-radius: 25px;
     /*those styles get inherited from body unless they are over written in this class. Thats why this is called a cascading style sheet
     styles cascade downward, from top element to inner element
     so black-background should pass in font-size and text-align from body
@@ -26,7 +27,8 @@ html,body{
     border: 1px solid #ccc;
     background-color: rgb(49, 49, 49);
     width: 30%;
-    height: 300px;
+    height: 600px;
+    border-radius: 25px;
     
   }
   
@@ -43,6 +45,7 @@ html,body{
     cursor: pointer;
     transition: 0.3s;
     font-size: 20px;
+    border-radius: 25px;
   }
   
   /* Change background color of buttons on hover */
@@ -66,7 +69,6 @@ html,body{
   }
   ul {
     text-align: left;
-    width: 100%;
     position:relative;
     left: 30%;
     }
