@@ -1,14 +1,24 @@
 html,body{
-    font-size: 30px;
-    text-align: center; 
-    font-family: 'Asap', sans-serif;    
+  font-size: 30px;
+  text-align: center; 
+  font-family: 'Asap', sans-serif; 
+  color: rgb(46, 46, 46); 
+  position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;  
+  overflow-y: auto;
+  overflow-x: auto;
 } 
 
 .black-background{
     color: white;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(46, 46, 46);
     text-align: center;
     border-radius: 25px;
+    width: 100%;
+    margin: 0px;
     /*those styles get inherited from body unless they are over written in this class. Thats why this is called a cascading style sheet
     styles cascade downward, from top element to inner element
     so black-background should pass in font-size and text-align from body
@@ -18,16 +28,16 @@ html,body{
 .white-background{
     background-color: rgb(88, 86, 86);
     color: white;
-    width: 200px;
+    width: 100px;
     height: 400px;
+    margin: 0px;
 }
 /* Style the tab */
 .tab {
     float: left;
-    border: 1px solid #ccc;
-    background-color: rgb(49, 49, 49);
-    width: 30%;
-    height: 600px;
+    background-color: rgb(46, 46, 46);
+    width: 20%;
+    height: 700px;
     border-radius: 25px;
     
   }
@@ -62,20 +72,79 @@ html,body{
   .tabcontent {
     float: top;
     padding: 10px 10px;
-    border: 1px solid #ccc;
-    width: 100%;
+    width: 80%;
     border-left: none;
     height: 600px;
   }
+  /*I want all my un ordered lists to align the same*/
   ul {
     text-align: left;
     position:relative;
-    left: 30%;
+    left: 10%;
+    
+    
     }
-    h3{
-        font-size: 50px;
+  /*Tab headings that I want the same */
+  h3{
+        font-size: 40px;
         text-decoration: underline;
     }
+  /* unvisited link */
+a:link {
+  color:black;
+}
+
+/* visited link */
+a:visited {
+  color:red;
+}
+
+/* mouse over link */
+a:hover {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+.experiencecontent{
+  color:rgb(46, 46, 46);
+  text-align: left;
+  position:relative;
+  left: 10%;
+  
+}
+
+.experiencelist{
+  color:rgb(46, 46, 46);
+  text-align: left;
+  position:relative;
+  left: 6.5%;
+  font-size: 25px;
+  right:10%;
+  
+  
+}
+
+.projectswebsite{
+  color:rgb(46, 46, 46);
+  text-align: left;
+  position:relative;
+  left: 10%;
+  
+}
+
+.websitelist{
+  color:rgb(46, 46, 46);
+  text-align: left;
+  position:relative;
+  left: 6.5%;
+  font-size: 25px;
+  
+}
+
    
 
 

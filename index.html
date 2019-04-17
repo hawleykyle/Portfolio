@@ -4,7 +4,7 @@
       <link rel="stylesheet" href="site.css">
       <title>KyleRHawley</title>
     </head>
-    <body>
+    
       <div class="black-background">
           <h1> 
             <strong>Kyle R Hawley</strong>
@@ -13,38 +13,80 @@
       </div>
       
       <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Contact')" id="defaultOpen">Contact</button>
-            <button class="tablinks" onclick="openCity(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openCity(event, 'Contact Information')" id="defaultOpen">Contact Information</button>
+            <button class="tablinks" onclick="openCity(event, 'Personal Attributes')">Personal Attributes</button>
+            <button class="tablinks" onclick="openCity(event, 'Software Skills')">Software Skills</button>
             <button class="tablinks" onclick="openCity(event, 'Experience')">Experience</button>
             <button class="tablinks" onClick="openCity(event, 'Projects')">Projects</button>
           </div>
           
-          <div id="Contact" class="tabcontent">
-            <h3>Contact</h3>
-            <p><strong>Email:</strong>kylerhaw@gmail.com</p>
-            <p><strong>Phone:</strong> (210) 591-9831</p>
+          <div id="Contact Information" class="tabcontent">
+            <h3>Contact Information</h3>
+            <ul>
+            <li><strong>Email:</strong><a href="mailto:kylerhaw@gmail.com">kylerhaw@gmail.com</a></li>
+            <li><strong>Phone:</strong>210.591.9831</li>
+            <li><strong>Social:</strong> <a href="https://www.linkedin.com/in/kyle-hawley-931629ba/">LinkedIn</a> <a href="https://github.com/hawleykyle">Git Hub</a></li>
           </div>
-          
-         <div id="Skills" class="tabcontent">
-            <h3>Skills</h3> 
+        </ul>
+         <div id="Personal Attributes" class="tabcontent">
+            <h3>Personal Attributes</h3> 
             <ul>
                 <li>Problem Solving</li>
                 <li>Communication</li>
                 <li>Collaboration</li>
                 <li>Public Speaking</li>
-                <li>goooooooood person </li>
+                <li>Hard-working </li>
+                <li>Resilient </li>
+                <li>Motivated </li>
+                <li>Quick Learner </li>
+          </ul> 
+          </div>
+
+          <div id="Software Skills" class="tabcontent">
+            <h3>Software Skills</h3> 
+            <ul>
+                <li><i>Microsoft</i> - Visual Studio, VS Code, Word, Excel</li>
+                <li><i>Command Line</i> - Windows Powershell, Git Bash, Push, Commit</li>
+                <li><i>Languages</i> - Javascript, ES6, C#, HTML, HTML 5, CSS, SQL, Bootstrap </li>
+                <li><i>Software Platforms</i> - Heroku, Git Hub, GitKraken, Visual Studio Code, Visual Studio, .NET, Sublime </li>
+                <li><i>Professional Development</i>- understanding of Agile, passion to learn better software engineering techniques </li>
 
                </ul> 
           </div>
           
           <div id="Experience" class="tabcontent">
             <h3>Experience</h3>
-            <p>My Experience.</p>
+          <div id="Content in Experience" class="experiencecontent">
+                <p><i>Public School Educator</i><br><i>Head Cross Country & Head Track Coach</i><br>2015 - Present</p></div>
+          <div id="List of experience" class="experiencelist">      
+            <ul><li>Collobrate with department team to develop engaging, student-centered lesson plans.</li>
+                <li>Implement instruction and engage students in the classroom using the lessons developed.</li>
+                <li>Develop actions to accumulate data.</li>
+                <li>Analayze data and implement procedures to improve results in the next data run.</li>
+                <li>Organize and develop practice calendar for year-round participation. </li>
+                <li>Oversee approximately 150 young adults on a daily basis.</li>
+                <li>Motivate team to complete assignments to the best of their ability.</li>
+                <li>Publicly present daily goals and quarterly results.</li>
+            </ul>
+            </div>
+
+            
           </div>
 
           <div id="Projects" class="tabcontent">
                 <h3>Projects</h3>
-                <p>My Projects.</p>
+                <div id="Content in Projects" class="projectswebsite">
+                  <p><i>Resume Website</i></p></div>
+            <div id="List of website info" class="websitelist">      
+              <ul><li>Developed website content using HTML.</li>
+                  <li>Manipulated website layout and features using HTML and CSS coding.</li>
+                  <li>Engaged websites actions by writing JavaScript code.</li>
+                  <li>Used Git, Visual Studio Code, and Git Hub to edit, save, and commit changes.</li>
+                  <li>Used Heroku to push the static website to the web.</li>
+                  <li>When confused on a topic, I sought help from other Software Engineers.</li>
+                
+              </ul>
+              </div>
               </div>
           
           <script>
@@ -66,6 +108,6 @@
           document.getElementById("defaultOpen").click();
           </script>
              
-          </body>
+          
           </html> 
           
